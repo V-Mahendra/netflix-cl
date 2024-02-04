@@ -1,10 +1,11 @@
 import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="App">
-      <h2 className='text-cyan-500 font-bold  '>hello world with tailwind css</h2>
-    </div>
+    <div >
+      <Body />
+     </div>
   );
 }
 
